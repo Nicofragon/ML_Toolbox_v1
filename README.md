@@ -1,8 +1,7 @@
-# Data analysis
-- Document here the project: ml_toolbox
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+# Testing how to create py packages
+**Scripts:**. 
+- get_weather_in
+- stockprice
 
 Please document the project the better you can.
 
