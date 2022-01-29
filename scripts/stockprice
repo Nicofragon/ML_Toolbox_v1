@@ -1,0 +1,24 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import numpy as np
+import pandas as pd
+import yfinance as yf
+
+def get_stock(stock,days):
+    data = yf.download(tickers=stock, period=days)
+    return data
+
+
+def main():
+    stock = input('Stock Name?\n> ')
+    period = input('Period in days?\n> ')
+    per = str(period)+'d'
+
+    data = get_stock(stock,per)
+
+    print(data)
+
+
+if __name__ == '__main__':
+    main()
